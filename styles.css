@@ -1,0 +1,99 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: #a2d2ff;
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 2px black;
+}
+
+#logo-img {
+    width: 150px;
+    border-radius: 2%;
+    border: 10px solid #ffffff;
+    margin-bottom: 10px;
+}
+
+#buildings-total {
+    background: #970000;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#register-total {
+    margin: 0 0 20px 0;
+    background: #970000;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.caption-Randolf {
+    margin-bottom: 0px;
+}
+
+.hover-hint {
+    margin-top: 0;
+}
+
+
+.image-style {
+    margin: 0px auto 0px auto;
+    max-width: 400px;
+    height: 300px;
+    border: 6px solid #970000;
+    border-radius: 10px;    
+}
+
+#Randolf-img{
+    background-image: url("images/Randolf-Hall.jpg");
+    background-size: cover;
+}
+
+#Randolf-img:hover {
+    background-image: url("images/Randolf-Fact.jpg");
+       background-size: contain; 
+       height: 190pt;
+}
+
+#Towell-img{
+    background-image: url("images/Towell-Library.jpg");
+    background-size: cover;
+}
+
+#Towell-img:hover {
+    background-image: url("images/Towell-Fact.jpg");
+    background-size: contain; 
+    height: 200pt;            
+}
+
+#Blacklock-img {
+    background-image: url("images/Blacklock-House.jpg");
+    background-size: cover;
+}
+
+#Blacklock-img:hover {
+    background-image: url("images/Blacklock-Fact.jpg");
+    background-size: contain; 
+    height: 190pt;            
+}
+
+#Porters-img {
+    background-image: url("images/Porters-Lodge.jpg");
+    background-size: cover;
+}
+
+#Porters-img:hover {
+    background-image: url("images/Porter-Fact.jpg");
+    background-size: contain; 
+    height: 190pt;            
+}
